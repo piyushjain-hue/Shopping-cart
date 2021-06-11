@@ -1,0 +1,52 @@
+*{ margin: 0;padding: 0;box-sizing: border-box; 
+font-family: 'Josefin Sans', sans-serif; }
+
+.carousel {
+	width:100%;
+	height:auto;
+}
+
+.carousel-inner {
+	width: 100%;
+	height: auto;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 100% !important;
+}
+
+@media(max-width: 550px){
+	.carousel-item img {
+		max-width: 550px;
+		height: auto;
+	}
+}
+.nav2{
+	background-image: url(https://buddybun.com/assets/img/design.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-x: center;
+    background-position-y: center;
+}
+.form-image .l-image {
+    background-image: url(https://buddybun.com/assets/img/design.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-x: center;
+    background-position-y: center;
+}
